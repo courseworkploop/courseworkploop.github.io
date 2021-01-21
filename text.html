@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="nav-container">
+
+        <a href="text.html">Text</a>
+        <a href="image.html">Image</a>
+        <a href="video.html">Video</a>
+        <a href="table.html">Table</a>
+    </div>
+</nav>
+
+<form class="login-container">
+    <div>
+        <label>Pig's Name: </label>
+        <div>
+            <input name="fn"/>
+        </div>
+    </div>
+    <div>
+        <label>Pig's Owner: </label>
+        <div>
+            <input name="ln"/>
+        </div>
+    </div>
+    <div>
+        <label>Pig Breed: </label>
+        <div>
+            <input type="radio" id="sc" name="pi" value="sc" checked>
+            <label for="sc">Ralphs Pig</label>
+        </div>
+
+        <div>
+            <input type="radio" id="gv" name="pi" value="gv">
+            <label for="gv">Costco Pig</label>
+        </div>
+
+        <div>
+            <input type="radio" id="tb" name="pi" value="tb">
+            <label for="tb">Peppa Pig</label>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="Done"/>
+    </div>
+</form>
+
+</body>
+
+<style>
+    body {
+        margin: 0;
+    }
+    nav {
+        width: 100vw;
+        background: #000;
+    }
+    .nav-container {
+        padding: 10px;
+    }
+    .nav-container > a {
+        color: #fff;
+        font-size: 1.5em;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .login-container {
+        margin: 10px;
+    }
+    .login-container > div {
+        margin-top: 20px;
+    }
+    label {
+    }
+</style>
+</html>
